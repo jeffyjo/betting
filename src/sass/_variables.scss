@@ -1,0 +1,12 @@
+$brand-green:				rgb(0, 146, 214);
+$brand-gold:				#e5c685;
+
+$brand-green--light:		lighten( $brand-green, 25 );
+$brand-green--super-light:	lighten( $brand-green, 50 );
+
+$util-white:				#fff;
+$util-black:				#000;
+
+$util-dark:					lighten( $util-black, 20 );
+
+$background-overlay:		rgba( 0,0,150, 0.01 );
