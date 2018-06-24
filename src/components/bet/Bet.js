@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
-import BetItem from '../components/BetItem'
+import React from 'react'
+// import BetItem from '../components/BetItem'
 
 const Bet = (props) => {
-
   return(
 	<div>
 		<h1>Bet</h1>

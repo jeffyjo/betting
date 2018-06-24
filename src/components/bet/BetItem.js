@@ -2,9 +2,9 @@ import React from 'react'
 import Team from './Team'
 
 const BetItem = (props) => {
-	const homeTeamBetId = `${props.match.id}-1`
-	const drawBetId = `${props.match.id}-x`
-	const awayTeamBetId = `${props.match.id}-2`
+	// const homeTeamBetId = `${props.match.id}-1`
+	// const drawBetId = `${props.match.id}-x`
+	// const awayTeamBetId = `${props.match.id}-2`
 
 	return (
 		<div className="bet-item">

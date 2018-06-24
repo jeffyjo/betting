@@ -1,5 +1,5 @@
 import React from 'react'
-import { getTeam } from '../Util'
+import { getTeam } from '../../Util'
 
 const Team = (props) => {
 
