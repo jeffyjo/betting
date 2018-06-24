@@ -4,6 +4,8 @@
     align-items: center; }
   .u-grid--center-h, .u-grid--center {
     justify-content: center; }
+  .u-grid--3-cols {
+    grid-template-columns: 33% 33% 33%; }
 
 .u-flex {
   display: flex; }
@@ -20,27 +22,8 @@
   .u-flex--space-between {
     justify-content: space-between; }
 
-.u-grid {
-  display: grid; }
-  .u-grid--center-v, .u-grid--center {
-    align-items: center; }
-  .u-grid--center-h, .u-grid--center {
-    justify-content: center; }
-
-.u-flex {
-  display: flex; }
-  .u-flex--vertical {
-    flex-direction: column; }
-  .u-flex--horizontal {
-    flex-direction: row; }
-  .u-flex--center-v, .u-flex--center {
-    align-items: center; }
-  .u-flex--center-h, .u-flex--center {
-    justify-content: center; }
-  .u-flex--space {
-    justify-content: space-around; }
-  .u-flex--space-between {
-    justify-content: space-between; }
+.u-flex__item--center-h {
+  justify-self: center; }
 
 * {
   padding: 0;
@@ -123,7 +106,9 @@ p {
   background: rgba(0, 146, 214, 0.15);
   border: none;
   border-radius: 0.5em;
-  padding: 0.5em; }
+  padding: 0.5em;
+  width: 100%;
+  outline: none; }
 
 .match__inner {
   margin: 1em;
@@ -137,3 +122,21 @@ p {
 
 .team__item:not(:first-child) {
   margin-left: .5em; }
+
+.bet {
+  margin: 1em; }
+
+.bet__top {
+  margin: 2em 0; }
+
+.bet__bottom {
+  margin: 1em; }
+
+.coin {
+  font-size: 3em;
+  height: 2em;
+  width: 2em;
+  border: 1px solid;
+  border-radius: 50%;
+  background: yellow;
+  box-shadow: 1px 1px 1px 1px #080808; }

@@ -2,6 +2,7 @@ import React from 'react'
 import { getTeam } from '../../Util'
 
 const Team = (props) => {
+  console.log('props', props)
 
 	const team = getTeam(props.teamId)
 

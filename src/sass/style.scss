@@ -110,7 +110,9 @@ p {
 	background: rgba(0,146,214,.15);
 	border: none;
 	border-radius: 0.5em;
-	padding: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+  outline: none;
 }
 
 .match__inner {
@@ -139,4 +141,30 @@ p {
 
 .team__item:not(:first-child) {
 	margin-left: .5em;
+}
+
+.bet {
+  margin: 1em;
+}
+
+.bet__top {
+  margin: 2em 0;
+}
+
+.bet__middle {
+
+}
+
+.bet__bottom {
+  margin:  1em;
+}
+
+.coin {
+  font-size: 3em;
+  height: 2em;
+  width: 2em;
+  border: 1px solid;
+  border-radius: 50%;
+  background: yellow;
+  box-shadow: 1px 1px 1px 1px #080808;
 }
